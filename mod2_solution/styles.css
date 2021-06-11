@@ -1,0 +1,74 @@
+*{
+	box-sizing: border-box;
+}
+div{
+	background-color: #f4fc03;
+}
+header{
+	font-family: sans-serif ;
+	text-align: center;
+	font-size: 175%;
+	padding: 25px;
+}
+.text{
+	position: relative;
+	font-family: Roboto;
+	border: 3px solid black;
+	padding: 30px;
+	margin-left: 20px;
+}
+p{
+	background-color: red;
+}
+.sec_title{
+	font-size: 125%;
+	background-color: gray;
+	padding: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: absolute;
+	top: 0;
+	border: solid 1px black;
+	right: 0;
+}
+#sec1{
+	background-color: pink;
+}
+#sec2{
+	background-color: orange;
+}
+#sec3{
+	color: white;
+	background-color: blue;
+}
+@media(min-width: 1015px){
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+	    float: left;
+	  }
+	  .col-lg-3 {
+	    width: 33.3%;
+	  }
+	  .col-lg-4 {
+	    width: 31.33%;
+	  }
+}
+@media(min-width: 768px) and (max-width: 1014px){
+	  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+	    float: left;
+	  }
+	  .col-md-6 {
+	    width: 44%;
+	  }
+	  .col-md-12 {
+	    width: 95%;
+	  }
+	  #text3{
+	  	margin-top: 9px;
+	  }
+ }
+ @media(max-width: 767px){
+ 	.text{
+ 		margin-top: 8px;
+ 		margin-right: 20px;
+ 	}
+ }
